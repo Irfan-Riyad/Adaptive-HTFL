@@ -43,7 +43,7 @@ adaptive_htfl/
 ├── core/
 │   ├── client.py              # IoT client node with hardware context simulation
 │   ├── server.py              # Adaptive-HTFL aggregation server
-│   └── trust_engine.py        # Multi-Dimensional Dynamic Trust Scoring
+│   └── trust_engine_ai.py        # Multi-Dimensional Dynamic Trust Scoring
 ├── blockchain/
 │   └── dpot_chain.py          # Delegated Proof-of-Trust micro-chain
 ├── attacks/
