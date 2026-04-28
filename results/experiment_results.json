@@ -1,0 +1,951 @@
+[
+  {
+    "scenario_id": "baseline",
+    "strategy": "FedAvg",
+    "n_rounds": 3,
+    "final_accuracy": 0.29244444444444445,
+    "accuracy_history": [
+      0.14,
+      0.27266666666666667,
+      0.4646666666666667
+    ],
+    "loss_history": [
+      1.3039179990162304,
+      1.2184195213324287,
+      1.2088678283922611
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.0,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": []
+  },
+  {
+    "scenario_id": "baseline",
+    "strategy": "BasicTrust",
+    "n_rounds": 3,
+    "final_accuracy": 0.3344444444444445,
+    "accuracy_history": [
+      0.24133333333333334,
+      0.3426666666666667,
+      0.41933333333333334
+    ],
+    "loss_history": [
+      1.4239036561633633,
+      1.2005156575427927,
+      1.205800630302026
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.675,
+        0.675,
+        0.661504450683215,
+        0.6125230775660117,
+        0.5031294487980844
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": []
+  },
+  {
+    "scenario_id": "baseline",
+    "strategy": "AdaptiveHTFL",
+    "n_rounds": 3,
+    "final_accuracy": 0.2551111111111111,
+    "accuracy_history": [
+      0.13333333333333333,
+      0.23733333333333334,
+      0.39466666666666667
+    ],
+    "loss_history": [
+      1.4157365146221998,
+      1.1778170919346433,
+      1.3678742088178004
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 1.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.7723968982008749,
+        0.8940180825382766,
+        0.8550660756663528,
+        0.8254345951160493,
+        0.6191221841320945
+      ]
+    ],
+    "dpot_history": [
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.553,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "ccdaf0555149dc43",
+        "hash": "aa3f775d93bdf404"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.556,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "3f38926d3e5e324c",
+        "hash": "d03ea010082485df"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.559,
+        "votes": 4,
+        "consensus": true,
+        "fingerprint": "af774323b2dc786d",
+        "hash": "c3abcfe23335134b"
+      }
+    ],
+    "malicious_ids": []
+  },
+  {
+    "scenario_id": "label_flip",
+    "strategy": "FedAvg",
+    "n_rounds": 3,
+    "final_accuracy": 0.2531111111111111,
+    "accuracy_history": [
+      0.15,
+      0.254,
+      0.35533333333333333
+    ],
+    "loss_history": [
+      1.5045547170409406,
+      1.0760854660409442,
+      1.2428895849255528
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.0,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": [
+      4
+    ]
+  },
+  {
+    "scenario_id": "label_flip",
+    "strategy": "BasicTrust",
+    "n_rounds": 3,
+    "final_accuracy": 0.3131111111111111,
+    "accuracy_history": [
+      0.22066666666666668,
+      0.24466666666666667,
+      0.474
+    ],
+    "loss_history": [
+      1.2557954216703169,
+      1.3874300595740754,
+      1.130147517591705
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.675,
+        0.675,
+        0.6697056510579051,
+        0.6059213338505784,
+        0.5139626424812623
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": [
+      0
+    ]
+  },
+  {
+    "scenario_id": "label_flip",
+    "strategy": "AdaptiveHTFL",
+    "n_rounds": 3,
+    "final_accuracy": 0.24177777777777779,
+    "accuracy_history": [
+      0.15666666666666668,
+      0.256,
+      0.31266666666666665
+    ],
+    "loss_history": [
+      1.2703593902532133,
+      1.1804101510036393,
+      1.3631666611162434
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 1.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.764227401466923,
+        0.8255080852782202,
+        0.8418935451399021,
+        0.8131248339624839,
+        0.5973421884402792
+      ]
+    ],
+    "dpot_history": [
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.553,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "301e7904c4e9921f",
+        "hash": "630c0bc239a7a987"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.556,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "015f293cb3996769",
+        "hash": "31ac41928e11e06b"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.559,
+        "votes": 4,
+        "consensus": true,
+        "fingerprint": "5e91613478c4c0f1",
+        "hash": "31e0f7242314af02"
+      }
+    ],
+    "malicious_ids": [
+      2
+    ]
+  },
+  {
+    "scenario_id": "noise",
+    "strategy": "FedAvg",
+    "n_rounds": 3,
+    "final_accuracy": 0.22066666666666665,
+    "accuracy_history": [
+      0.26666666666666666,
+      0.19466666666666665,
+      0.20066666666666666
+    ],
+    "loss_history": [
+      1.3048329553263303,
+      1.3626998166154705,
+      1.254539141984467
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.0,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": [
+      2
+    ]
+  },
+  {
+    "scenario_id": "noise",
+    "strategy": "BasicTrust",
+    "n_rounds": 3,
+    "final_accuracy": 0.31422222222222224,
+    "accuracy_history": [
+      0.21066666666666667,
+      0.334,
+      0.398
+    ],
+    "loss_history": [
+      1.3135060946299169,
+      1.243016461155738,
+      1.2787023742798358
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.675,
+        0.3881774173543025,
+        0.675,
+        0.675,
+        0.6679100904489527
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": [
+      1
+    ]
+  },
+  {
+    "scenario_id": "noise",
+    "strategy": "AdaptiveHTFL",
+    "n_rounds": 3,
+    "final_accuracy": 0.28444444444444444,
+    "accuracy_history": [
+      0.19866666666666666,
+      0.31933333333333336,
+      0.3353333333333333
+    ],
+    "loss_history": [
+      1.4135512402007122,
+      1.1517480123087016,
+      1.3832623837294058
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 1.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.7961110323579812,
+        0.8992117366895864,
+        0.8431748157484962,
+        0.5043362989908269,
+        0.791983539407666
+      ]
+    ],
+    "dpot_history": [
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.553,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "0613af687ec4fafb",
+        "hash": "d3579ff994353179"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.556,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "de454cfb2e106d76",
+        "hash": "481620a435f9cfba"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "excluded": [
+          3
+        ],
+        "threshold": 0.559,
+        "votes": 4,
+        "consensus": true,
+        "fingerprint": "844fe901bdd50a2e",
+        "hash": "49e20d9f1fcaad7f"
+      }
+    ],
+    "malicious_ids": [
+      3
+    ]
+  },
+  {
+    "scenario_id": "scaling",
+    "strategy": "FedAvg",
+    "n_rounds": 3,
+    "final_accuracy": 0.17133333333333334,
+    "accuracy_history": [
+      0.12333333333333334,
+      0.19533333333333333,
+      0.19533333333333333
+    ],
+    "loss_history": [
+      1.3901225565216617,
+      1.1255978929883141,
+      1.1788603352360636
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.0,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": [
+      1
+    ]
+  },
+  {
+    "scenario_id": "scaling",
+    "strategy": "BasicTrust",
+    "n_rounds": 3,
+    "final_accuracy": 0.20200000000000004,
+    "accuracy_history": [
+      0.13,
+      0.19533333333333333,
+      0.2806666666666667
+    ],
+    "loss_history": [
+      1.4191576818484293,
+      1.299721481683643,
+      1.2865414366968444
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.675,
+        0.3775822319265253,
+        0.675,
+        0.675,
+        0.675
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": [
+      1
+    ]
+  },
+  {
+    "scenario_id": "scaling",
+    "strategy": "AdaptiveHTFL",
+    "n_rounds": 3,
+    "final_accuracy": 0.16533333333333333,
+    "accuracy_history": [
+      0.10066666666666667,
+      0.20933333333333334,
+      0.186
+    ],
+    "loss_history": [
+      1.2255872335618014,
+      1.1405100225389222,
+      1.296970846993021
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 1.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.510777665727643,
+        0.835062979870179,
+        0.8644393846255864,
+        0.8518114369723491,
+        0.7442896406660329
+      ]
+    ],
+    "dpot_history": [
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.553,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "1025a14a6d2d6bb1",
+        "hash": "9d03d7357e8f8d94"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.556,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "6783247cd8b46ff4",
+        "hash": "0e895e494eae8d38"
+      },
+      {
+        "committee": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [
+          0
+        ],
+        "threshold": 0.559,
+        "votes": 4,
+        "consensus": true,
+        "fingerprint": "03ac1b9d37856b74",
+        "hash": "956a480bbbd84515"
+      }
+    ],
+    "malicious_ids": [
+      0
+    ]
+  },
+  {
+    "scenario_id": "slow_poison",
+    "strategy": "FedAvg",
+    "n_rounds": 3,
+    "final_accuracy": 0.23977777777777778,
+    "accuracy_history": [
+      0.16066666666666668,
+      0.23666666666666666,
+      0.322
+    ],
+    "loss_history": [
+      1.355511923360567,
+      1.4039293178222463,
+      1.3836027689835992
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.0,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": [
+      3,
+      1
+    ]
+  },
+  {
+    "scenario_id": "slow_poison",
+    "strategy": "BasicTrust",
+    "n_rounds": 3,
+    "final_accuracy": 0.2953333333333334,
+    "accuracy_history": [
+      0.23466666666666666,
+      0.32133333333333336,
+      0.33
+    ],
+    "loss_history": [
+      1.5529925003291907,
+      1.365825986192839,
+      1.2816655737850642
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 0.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.675,
+        0.675,
+        0.6465713924143528,
+        0.5452939421708812,
+        0.5658886124368145
+      ]
+    ],
+    "dpot_history": [],
+    "malicious_ids": [
+      0,
+      4
+    ]
+  },
+  {
+    "scenario_id": "slow_poison",
+    "strategy": "AdaptiveHTFL",
+    "n_rounds": 3,
+    "final_accuracy": 0.24266666666666667,
+    "accuracy_history": [
+      0.16466666666666666,
+      0.24866666666666667,
+      0.31466666666666665
+    ],
+    "loss_history": [
+      1.3312137810435574,
+      1.4045437121635107,
+      1.2797976492279963
+    ],
+    "convergence_round": 3,
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "avg_compression": 0.9,
+    "dpot_consensus_rate": 1.0,
+    "trust_history": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.7419516791927379,
+        0.8226616981051256,
+        0.7602189609638312,
+        0.8630442001653724,
+        0.6040593195178867
+      ]
+    ],
+    "dpot_history": [
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.553,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "fe83dfb9a2e75aee",
+        "hash": "1d8279833cd9bfa1"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.556,
+        "votes": 5,
+        "consensus": true,
+        "fingerprint": "87bef216f1c9d8e0",
+        "hash": "4033d5f3f0cebf5c"
+      },
+      {
+        "committee": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "excluded": [],
+        "threshold": 0.559,
+        "votes": 4,
+        "consensus": true,
+        "fingerprint": "cc2fb483d9900fe7",
+        "hash": "d63f5027e12f0a28"
+      }
+    ],
+    "malicious_ids": [
+      0,
+      2
+    ]
+  }
+]
